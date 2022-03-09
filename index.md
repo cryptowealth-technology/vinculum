@@ -16,13 +16,13 @@ Stat Prob
 
 ##### Standard Library
 
-| Operation | Description | Input | Outout |
+| Operation | Description | Input | Output | Add. Detail
 | -- | -------------- | ----- | ----- | ----- | 
-| +  | Addition       | node + node | values.Number (float) |
-| -  | Subtraction    | node - node | values.Number (float) |
-| *  | Multiplication | node * node | values.Number (float) |
-| /  | Division       | node / node | values.Number (float) |
-| %  | Modulo         | node % node | values.Number (float) |
-| + (Unary)  | Unary Positive Operation | +node | values.Number (float) |
-| - (Unary)  | Unary Negation Operation | -node | values.Number (float) |
-| () | Left \& Right Parenthesis to Change Priority of Operations | ( expression ) | | |
+| +  | Addition       | node + node | values.Number (float) | | |
+| -  | Subtraction    | node - node | values.Number (float) | | |
+| *  | Multiplication | node * node | values.Number (float) | | |
+| /  | Division       | node / node | values.Number (float) | | |
+| %  | Modulo         | node % node | values.Number (float) | | |
+| + (Unary)  | Unary Positive Operation | +node | values.Number (float) | | |
+| - (Unary)  | Unary Negation Operation | -node | values.Number (float) | | |
+| () | Left \& Right Parenthesis to Change Priority of Operations | ( expression ) | | | |
