@@ -11,3 +11,7 @@ At the moment, vinculum is merely a shell and can be downloaded as an executable
 
 ### From Source
 Run main.py
+
+## Documentation
+
+https://rishiedupalli.github.io/vinculum/
