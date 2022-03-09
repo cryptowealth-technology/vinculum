@@ -7,7 +7,7 @@ class Parser:
         self.advance()
 
     def raise_error(self):
-        raise Exception("Invalid syntax")
+        raise Exception("Invalid Syntax")
 
     def advance(self):
         try:
