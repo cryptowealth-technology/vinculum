@@ -4,13 +4,15 @@ Vinculum is a scientific computing language developed in Python.
 
 ### Current Features
 
-Simple Addition, Subtraction, Multiplication, Division, Order of Operations
++ Simple Addition, Subtraction, Multiplication, Division, Order of Operations
 
 ### Planned Features
 
-Full Library of Simple Math Operations
-CAS
-Stat Prob
++ Full Library of Simple Math Operations
++ CAS
++ Stat Prob
++ Numerical Methods for Aproximation
++ Physics
 
 ### Documentation
 
