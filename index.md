@@ -18,7 +18,7 @@ Vinculum is a scientific computing language developed in Python.
 
 ##### Standard Library
 
-| Operation | Description | Input | Output | Add. Detail
+| Operation | Description | Input | Output | Additional Detail |
 | -- | -------------- | ----- | ----- | ----- | 
 | +  | Addition       | node + node | values.Number (float) | | |
 | -  | Subtraction    | node - node | values.Number (float) | | |
