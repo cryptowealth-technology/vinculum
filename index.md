@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Vinculum Lang Documentation
 
-You can use the [editor on GitHub](https://github.com/rishiedupalli/vinculum/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Vinculum is a scientific computing language developed in Python. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Current Features
 
-### Markdown
+Simple Addition, Subtraction, Multiplication, Division, Order of Operations
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Planned Features
 
-```markdown
-Syntax highlighted code block
+Full Library of Simple Math Operations
+CAS
+Stat Prob
 
-# Header 1
-## Header 2
-### Header 3
+### Documentation
 
-- Bulleted
-- List
+##### Standard Library
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rishiedupalli/vinculum/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+| Operation | Description | Input | Outout |
+| -- | -------------- | ----- | ----- | ----- | 
+| +  | Addition       | node + node | values.Number (float) |
+| -  | Subtraction    | node - node | values.Number (float) |
+| *  | Multiplication | node * node | values.Number (float) |
+| /  | Division       | node / node | values.Number (float) |
+| %  | Modulo         | node % node | values.Number (float) |
+| + (Unary)  | Unary Positive Operation | +node | values.Number (float) |
+| - (Unary)  | Unary Negation Operation | -node | values.Number (float) |
+| () | Left \& Right Parenthesis to Change Priority of Operations | ( expression ) | | |
