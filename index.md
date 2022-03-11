@@ -16,6 +16,25 @@ Vinculum is a scientific computing language developed in Python.
 
 ### Documentation
 
+##### Grammar
+
++ expression
+    - := term ((PLUS|MINUS) term)*
+
++ term        
+    - := factor ((MUL|DIV) factor)*
+
++ factor    
+    - := (PLUS_MINUS) factor*
+    - := atom
+
++ atom
+    - := quark (POWER factor)*
+
++ quark
+    - := INT|Float
+    - := LPAREN expression RPAREN
+
 ##### Standard Library
 
 | Operation | Description | Input | Output | Additional Detail |
